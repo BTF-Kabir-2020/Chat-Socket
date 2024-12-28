@@ -1,0 +1,37 @@
+# Node.js modules
+chat-server/node_modules/
+chat-client/node_modules/
+
+# Logs
+chat-server/*.log
+chat-client/*.log
+chat-server/npm-debug.log*
+chat-client/npm-debug.log*
+chat-client/yarn-debug.log*
+chat-client/yarn-error.log*
+chat-server/yarn-debug.log*
+chat-server/yarn-error.log*
+
+# dotenv environment files
+chat-server/.env
+chat-client/.env
+
+# VS Code settings
+chat-server/.vscode/
+chat-client/.vscode/
+
+# Operating System files
+chat-server/.DS_Store
+chat-client/.DS_Store
+chat-server/Thumbs.db
+chat-client/Thumbs.db
+
+# Output directories
+chat-server/dist
+chat-client/dist
+
+# Miscellaneous
+chat-server/*.rar
+chat-client/*.rar
+chat-server/*.zip
+chat-client/*.zip

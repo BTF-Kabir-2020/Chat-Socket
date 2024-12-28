@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",          // برای سازگاری با ویژگی‌های جدید ECMAScript
+    "module": "ESNext",          // استفاده از ESModules
+    "moduleResolution": "Node",  // همانند Node.js برای رزولوشن ماژول‌ها
+    "strict": true,              // فعال کردن حالت strict
+    "esModuleInterop": true,     // برای هماهنگ‌سازی با ماژول‌های CommonJS
+    "skipLibCheck": true,        // برای جلوگیری از بررسی فایل‌های کتابخانه
+    "outDir": "dist",            // دایرکتوری خروجی فایل‌های کامپایل‌شده
+    "forceConsistentCasingInFileNames": true  // جلوگیری از تفاوت در حروف بزرگ و کوچک نام فایل‌ها
+  },
+  "include": ["src/**/*.ts"],    // پوشه‌هایی که باید کامپایل شوند
+  "exclude": ["node_modules"]    // پوشه‌هایی که باید از کامپایل مستثنی شوند
+}
